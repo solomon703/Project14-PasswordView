@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+}
+body{
+  background:linear-gradient(90deg ,#4D5D53,#ACE1AF);
+}
+.input-box{
+  width: 90%;
+  max-width: 500px;
+  background:#fff;
+  margin: 300px auto;
+  padding: 20px 10px;
+  display: flex;
+  align-items: center;
+  border-radius: 14px;
+}
+.input-box input{
+  width: 100%;
+  border:none;
+  outline: none;
+  font-size: 21px;
+  color: #555;
+  padding: 0px 10px;
+}
+.input-box img{
+  width: 35px;
+  cursor: pointer;
+}
+.input-box img:hover{
+  color: red;
+
+}
